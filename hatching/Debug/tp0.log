@@ -1,0 +1,60 @@
+﻿Build started 23-05-2014 02:36:55 PM.
+     1>Project "C:\Users\Mourjo\My Stuff\Documents\UNSA Docs\Sem 2\Image Processing\Bousseau\project\real_time_hatching\projectCode\hatching\tp0.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\tp2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\lib\win32\glut\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\mourjo\my stuff\documents\unsa docs\sem 2\image processing\bousseau\project\real_time_hatching\projectcode\hatching\main.cpp(272): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\mourjo\my stuff\documents\unsa docs\sem 2\image processing\bousseau\project\real_time_hatching\projectcode\hatching\main.cpp(301): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mourjo\my stuff\documents\unsa docs\sem 2\image processing\bousseau\project\real_time_hatching\projectcode\hatching\main.cpp(310): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mourjo\my stuff\documents\unsa docs\sem 2\image processing\bousseau\project\real_time_hatching\projectcode\hatching\main.cpp(320): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/tp2.exe" /INCREMENTAL:NO /NOLOGO .\lib\win32\glut\glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\tp2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/tp0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\tp2.lib" /MACHINE:X86 .\Debug/glew.obj
+         .\Debug/glsl.obj
+         .\Debug/main.obj
+         .\Debug/Texture.obj
+         .\Debug/Trackball.obj
+         .\Debug/Vertex.obj
+     1>glew.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library .\Debug\tp2.lib and object .\Debug\tp2.exp
+     1>glsl.obj : warning LNK4049: locally defined symbol ___glewGetInfoLogARB imported
+     1>glsl.obj : warning LNK4049: locally defined symbol ___glewGetObjectParameterivARB imported
+     1>glsl.obj : warning LNK4049: locally defined symbol ___glewCompileShaderARB imported
+     1>glsl.obj : warning LNK4049: locally defined symbol ___glewShaderSourceARB imported
+     1>glsl.obj : warning LNK4049: locally defined symbol ___glewCreateShaderObjectARB imported
+     1>glsl.obj : warning LNK4049: locally defined symbol ___glewUseProgramObjectARB imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewUseProgramObjectARB imported
+     1>glsl.obj : warning LNK4049: locally defined symbol ___glewDeleteObjectARB imported
+     1>glsl.obj : warning LNK4049: locally defined symbol ___glewLinkProgramARB imported
+     1>glsl.obj : warning LNK4049: locally defined symbol ___glewAttachObjectARB imported
+     1>glsl.obj : warning LNK4049: locally defined symbol ___glewCreateProgramObjectARB imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewDisableVertexAttribArray imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewUniform1f imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4fv imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewDeleteVertexArrays imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewDeleteBuffers imported
+     1>main.obj : warning LNK4217: locally defined symbol _glewInit@0 imported in function _main
+         tp0.vcxproj -> C:\Users\Mourjo\My Stuff\Documents\UNSA Docs\Sem 2\Image Processing\Bousseau\project\real_time_hatching\projectCode\hatching\.\Debug\tp2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Debug/tp2.exe;#1" /manifest .\Debug\tp2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\tp2.unsuccessfulbuild".
+         Touching ".\Debug\tp2.lastbuildstate".
+     1>Done Building Project "C:\Users\Mourjo\My Stuff\Documents\UNSA Docs\Sem 2\Image Processing\Bousseau\project\real_time_hatching\projectCode\hatching\tp0.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.36

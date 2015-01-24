@@ -1,0 +1,18 @@
+﻿Build started 23-05-2014 02:43:44 PM.
+     1>Project "C:\Users\Mourjo\My Stuff\Documents\UNSA Docs\Sem 2\Image Processing\Bousseau\project\real_time_hatching\projectCode\depthSobel\tp0.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\tp2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         tp0.vcxproj -> C:\Users\Mourjo\My Stuff\Documents\UNSA Docs\Sem 2\Image Processing\Bousseau\project\real_time_hatching\projectCode\depthSobel\.\Debug\tp2.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\tp2.unsuccessfulbuild".
+         Touching ".\Debug\tp2.lastbuildstate".
+     1>Done Building Project "C:\Users\Mourjo\My Stuff\Documents\UNSA Docs\Sem 2\Image Processing\Bousseau\project\real_time_hatching\projectCode\depthSobel\tp0.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.16
